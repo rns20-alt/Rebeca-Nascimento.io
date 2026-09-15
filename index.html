@@ -1,95 +1,95 @@
-<!DOCTYPE html >
-<!-- ===========================================================
+<!DOCTYPE html>
+<!-- ============================================================
      TEMPLATE — Página pessoal com CSS Grid
      Programação Web / Introdução às Tecnologias Web — IFAL
      COMO USAR:
      1) Copie ESTE index.html para o seu repositório (não mude a estrutura).
      2) Escolha UM dos 3 temas de CSS (tema-1-indigo.css, tema-2-escuro.css
-        ou tema-3-editorial.css) e salve-o no seu projeto como estilo.css
+        ou tema-3-editorial.css) e salve-o no seu projeto como  estilo.css
         (é o nome que este HTML carrega logo abaixo).
      3) Troque os textos marcados com "TROQUE" pelo seu conteúdo.
      IMPORTANTE: o LAYOUT é feito com CSS Grid e é o mesmo nos 3 temas.
      Você escolhe a APARÊNCIA (fonte, cores, bordas), não o layout.
      ============================================================ -->
-< html  lang =" pt-BR " >
+<html lang="pt-BR">
 
-< cabeçalho >
-  < meta  charset =" UTF-8 " >
-  < meta  name =" viewport " content =" width=device-width, initial-scale=1.0 " >
-  < title > Página Pessoal — Rebeca Nascimento da Silva </ title >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Pessoal — Seu Nome</title>
   <!-- Salve o tema escolhido como "estilo.css" (mesma pasta deste arquivo) -->
-  < link  rel =" stylesheet " href =" estilo.css " >
-</head>​​
+  <link rel="stylesheet" href="estilo.css">
+</head>
 
-< body >
-  < div  class =" pagina " >
+<body>
+  <div class="pagina">
 
     <!-- ====== CABEÇALHO — TROQUE pelo seu nome e sua frase ====== -->
-    < header  class =" cabecalho " >
-      < h1 > Rebeca Nascimento da Silva </ h1 >
-      < p > Estudante de Desenvolvimento de Sistema· IFAL </ p >
-      < nav >
-        < a  href =" #sobre " > Sobre </ a >
-        < a  href =" #projetos " > Projetos </ a >
-        < a  href =" #contato " > Contato </ a >
-      </ nav >
-    </ cabeçalho >
+    <header class="cabecalho">
+      <h1>Rebeca Nascimento</h1>
+      <p>Estudante de Desenvolvimento Sistemas · IFAL</p>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
 
     <!-- ====== CONTEÚDO PRINCIPAL ====== -->
-    < classe principal  =" principal " >
-      < seção  id =" sobre " class =" cartão " >
-        <h2> Sobre mim </h2>​​​
+    <main class="principal">
+      <section id="sobre" class="cartao">
+        <h2>Sobre mim</h2>
         <!-- TROQUE por uma breve apresentação sua -->
-        < p > Meu nome é Rebeca Nascimento,sou estudante de desenvovimento de sistemas no IFAL.Gosto muito da area da tecnologia. </ p >
-      </ seção >
+        <p>Meu nome é Rebeca,tenho 17 anos, estudo no ifal de Maceio, gosto da área da programação e tecnologias.</p>
+      </section>
 
-      < seção  id =" projetos " class =" cartão " >
-        < h2 > Projetos </ h2 >
-        <!-- Galeria com Grid: cada .projeto é um cartão; adicionar/remover à vontade -->
-        < div  class =" projetos " >
-          < artigo  class =" projeto " >
-            < h3 > Pagina pessoal</ h3 >
-            < p > uma pagina pessoal criada com HTML e CSS para apresentar minhas informacoes e meus conhecimentos . </ p >
-          </ artigo >
-          < artigo  class =" projeto " >
-            < h3 > Formulario HTML</ h3 >
-              < p > Projeto desenvolvido para praticar a criacao e organizacao de formularios ultilizando HTML. </ p >
-          </ artigo >
-          < artigo  class =" projeto " >
-            < h3 > Projeto 3 </ h3 >
-            < p > Descrição curta do projeto. </ p >
-          </ artigo >
-        </div>​​
-      </ seção >
-    </main>​​
+      <section id="projetos" class="cartao">
+        <h2>Projetos</h2>
+        <!-- Galeria com Grid: cada .projeto é um card; adicione/remova à vontade -->
+        <div class="projetos">
+          <article class="projeto">
+            <h3>Projeto 1</h3>
+            <p></p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 2</h3>
+            <p></p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 3</h3>
+            <p></p>
+          </article>
+        </div>
+      </section>
+    </main>
 
     <!-- ====== BARRA LATERAL ====== -->
-    < aside  class =" lateral " >
-      < section  class =" cartao " >
-        < h2 > Habilidades </ h2 >
+    <aside class="lateral">
+      <section class="cartao">
+        <h2>Habilidades</h2>
         <!-- TROQUE pelas suas habilidades -->
-        < ul  class =" habilidades " >
-          <li> HTML </li>​​​​
-          <li> CSS </li>​​​​
-          <li> Logica da programacao </li>​​​​
-          <li> JavaScript </li>​​​​
-        </ul>​​
-      </ seção >
+        <ul class="habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Grid</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
 
-      < seção  id =" contato " class =" cartão " >
-        < h2 > Contato </ h2 >
+      <section id="contato" class="cartao">
+        <h2>Contato</h2>
         <!-- TROQUE pelos seus links -->
-        < ul  class =" contato " >
-          < li > ✉️ < a  href ="mailto:rns20@aluno.ifal.edu.br " >rns20@aluno.ifal.edu.br </ a > </ li >
-          <li> 🐙 <a href="https://github.com/rns20@-alt"> github.com/rns20@-alt </a> </li>​​​​​​​​​​​​ 
-        </ul>​​
-      </ seção >
-    </aside>​​
+        <ul class="contato">
+          <li>✉️ <a href="mailto: rns20@aluno.ifal.edu.br">rns20@aluno.ifal.edu.br</a></li>
+          <li>🐙 <a href="https://github.com/rns20-alt">github.com/rns20-alt</a></li>
+        </ul>
+      </section>
+    </aside>
 
     <!-- ====== RODAPÉ — TROQUE o nome ====== -->
-    < footer  class =" rodape " > © 2026 Rebeca Nascimento · feito com HTML + CSS Grid </ footer >
+    <footer class="rodape">© 2026 Rebeca Nascimento · feito com HTML + CSS Grid</footer>
 
-  </div>​​
-</body>​​
+  </div>
+</body>
 
-</ html >
+</html> 
